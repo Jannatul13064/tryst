@@ -1,0 +1,19 @@
+.header-log{
+    background-color: #1B1F29;
+    color: white;
+    font-size: 24px;
+}
+
+@media (min-width: 576px) {  
+    .log img {
+        height: 60px;
+        padding: 10px;
+    }
+  }
+/* .header-log img{
+    width: 50%;
+    height: 50%;
+}
+@media screen {
+    
+} */
