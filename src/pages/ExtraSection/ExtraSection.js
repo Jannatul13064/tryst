@@ -6,7 +6,7 @@ const ExtraSection = () => {
     return (
         <div className='my-4'>
             <div className='container'>
-                <img src={images} alt="" /><br />
+                <img src={images} alt="" className='img-fluid' /><br />
                 <img src={extra} alt="" className='img-fluid w-25 h-50' />
                 <p className='my-3'> Location From Australia</p>
             </div>
