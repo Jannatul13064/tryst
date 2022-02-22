@@ -4,11 +4,13 @@ const Footer = () => {
     return (
         <div className='bg-dark'>
             <ul className='text-light p-3 container'>
-                <li>Link 1 </li>
-                <li>Link 2 </li>
-                <li>Link 3 </li>
-                <li>Link 4 </li>
-                <li>Link 4 </li>
+                <li>© 2020 Assembly Four </li>
+                <li>Privacy</li>
+                <li>Terms and conditions </li>
+                <li>Support </li>
+                <li>Blog</li>
+                <li>Social</li>
+                <li>Contact</li>
             </ul>
         </div>
     );

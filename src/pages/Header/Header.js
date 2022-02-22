@@ -8,15 +8,15 @@ const Header = () => {
             <>
                 <Navbar bg="dark" variant="dark">
                     <div className='logo'>
-                        <Navbar.Brand href="#home"><span><img src={logo} alt="" srcSet="" className='img-fluid w-75 px-4' /></span></Navbar.Brand>
+                        <img src={logo} alt="" srcSet="" className='img-fluid w-75 px-4' />
                     </div>
                     <Container>
 
                         <Nav className="me-auto nav-text ">
 
-                            <div><Nav.Link href="#home">Menu</Nav.Link></div>
-                            <div><Nav.Link href="#features">SignUp</Nav.Link></div>
-                            <div><Nav.Link href="#pricing">LogIn</Nav.Link></div>
+                            <div className='mx-3'>Menu</div>
+                            <div className='mx-3'>SignUp</div>
+                            <div className='mx-3'>LogIn</div>
 
                         </Nav>
                     </Container>
